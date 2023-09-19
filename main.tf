@@ -14,7 +14,7 @@ data "azurerm_storage_account" "storage_accountname" {
 }
 
 output "azurerm_storage_account.id" {
- value = data.azurerm_storage_account.storage_account.id
+  value = data.azurerm_storage_account.storage_account.id
 }
 
 # Create Storage Container
